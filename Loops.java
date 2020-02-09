@@ -1,6 +1,3 @@
-/**
- * Loops
- */
 public class Loops {
 
     public static void main(String[] args) {
@@ -9,6 +6,7 @@ public class Loops {
         // A while loop that prints all even numbers from 0 to 100
 
         int i = 0;
+        System.out.println("Part 5a");
 
         while (i <= 100) {
             System.out.print(i + " ");
@@ -23,6 +21,7 @@ public class Loops {
         // from 100 until we reach 0
 
         int j = 100;
+        System.out.println("Part 5b");
 
         while (j > 0) {
             System.out.print(j + " ");
@@ -34,6 +33,8 @@ public class Loops {
 
         // Start Part 5c
         // A for loop that prints every other number from 1 to 100
+
+        System.out.println("Part 5c");
 
         for (i = 1; i <= 100; i++) {
             System.out.print(i + " ");
@@ -49,14 +50,16 @@ public class Loops {
         // “World” instead of the number, and if it is divisible by both 
         // 3 and 5, it prints “HelloWorld” instead of the number.
 
-        for (i = 0; i <= 100; i++) {
-          if (i %  3 == 0 && i % 5 == 0) {
+        System.out.println("Part 5d");
+
+        for (int k = 0; k <= 100; k++) {
+          if (k %  3 == 0 && k % 5 == 0) {
               System.out.println("HelloWorld");
-          } else if (i % 3 == 0) {
+          } else if (k % 3 == 0) {
               System.out.println("Hello");
-          } else if (i % 5 == 0) {
+          } else if (k % 5 == 0) {
               System.out.println("World");
-          } else System.out.println(i);                      
+          } else System.out.println(k);                      
         }
 
     }
