@@ -1,7 +1,7 @@
 /**
  * Week2Assignment
  */
-public class Week2Assignment {
+public class BooleanPractice {
 
     public static void main(String[] args) {
 
